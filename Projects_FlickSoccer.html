@@ -21,6 +21,7 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="mystyle.css" rel="stylesheet">
 
 </head>
 
@@ -39,10 +40,13 @@
         <a class="js-scroll-trigger" href="index.html">Home</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
+        <a class="js-scroll-trigger" href="#Swipe Detection">Swipe Detection</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Projects</a>
+        <a class="js-scroll-trigger" href="#Goal Sensors">Goal Sensors</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#Design">Design and Textures</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#contact">Contact</a>
@@ -50,33 +54,54 @@
     </ul>
   </nav>
 
-  
-  <section class="content-section">
+
+  <section class="title-section" id="Title">
+    <div class="container text-center"> 
+        <div class="col-lg-10 mx-auto">
+          <h1>Flick Soccer</h1>
+        </div>
+    </div>
+  </section> 
+
+
+  <section class="content-sectiontwo" id="Swipe Detection">
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h2>Swipe Detection</h2>
-          <p class="lead mb-5">This was the most important part of the making the game because it enables the user to interact with it. First the users finger was detected and assigned a variable, the velocity and length of the swipe are the determining factors of how the ball travels in the game(height and power). </p>
-            
+          <p class="lead mb-5">This was the most important part of the making the game because it enables the user to interact with it. First the users finger was detected and assigned a variable, the velocity and length of the swipe until the finger is lifted fom the screen are the determining factors of how fast and high the ball travels in the game. </p>
+          <img class="img-fluid" src="img/FlickSoccerSwipeDetection.jpg" alt="">
         </div>
       </div>
     </div>
   </section> 
   
-  <section class="content-section">
+  <section class="content-sectiontwo" id="Goal Sensors">
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h2>Goal Sensors</h2>
             <p class="lead mb-5">In order to get the goal sensors working properly I needed to put an interactive plane inside the net that would trigger a reaction on contact. The next step was to add little sensors in the corners that give an extra point if they come into contact with the ball.</p>
+            <img class="img-fluid" src="img/FlickSoccerGoalSensors.jpg" alt="">
           </div>
         </div>
       </div>
     </section> 
 
+    <section class="content-sectiontwo" id="Design">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Design and Textures</h2>
+            <p class="lead mb-5">I downloaded a couple different things to be able to have a nice polished looking game. First I downloaded the soccer ball skin from <a href="http://www.thegamecontriver.com/2014/08/unity3d-penalty-shootout-game-tutorial.html">here</a>. I then downloaded a complete stadium from the unity asset store <a href="https://assetstore.unity.com/packages/3d/environments/midwest-park-football-soccer-stadium-125254">here</a>. These were the only two things I needed to download and  I put them together to create the simple soccer game.</p>
+            <img class="img-fluid" src="img/Stadium.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section> 
   
   <!-- Footer -->
-  <footer class="footer text-center">
+  <footer class="footer text-center" id="contact">
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
