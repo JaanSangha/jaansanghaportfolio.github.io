@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143682312-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143682312-1');
+</script>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Jaan Sangha - Game Programmer</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="mystyle.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+        <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a class="js-scroll-trigger" href="#page-top">Navigation Menu</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="index.html">Home</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Preparing the Car">Preparing the Car</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Entering the Car">Entering the Car</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Racing">Racing</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Finishing the Race">Finishing the Race</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <section class="title-section" id="Title">
+        <div class="container text-center">
+            <div class="col-lg-10 mx-auto">
+                <h1>Reckless Rubber</h1>
+                <video class="img-fluid" autoplay loop muted>
+                    <source src="img/RRGameDemo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="content-sectiontwo" id="Preparing the Car">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Preparing the Car</h2>
+                    <p class="lead mb-5">The player can run around and interact with things any time when not driving the car. In this game it is required for the player to fill up the gas in the car in order to make it around the track. This is done using bools and triggers as well as Unity's new input system. I also used free animations from Mixamo. </p>
+                    <video class="img-fluid" autoplay loop muted>
+                        <source src="img/RRGassingUp.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-sectiontwo" id="Entering the Car">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Entering the Car</h2>
+                    <p class="lead mb-5">The player can freely enter and exit the car. When entering the car the UI switches to driving mode and the player controls the car, when exiting the car everything is returned and the player can control the human again.</p>
+                    <video class="img-fluid" autoplay loop muted>
+                        <source src="img/RREnterCar.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-sectiontwo" id="Racing">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>10 Second Racing</h2>
+                    <p class="lead mb-5">The player can drive onto the track to start the race and then they must reach the next checkpoint within the given 10 seconds. This time frame was chosen because the gamejam theme was "10 seconds". When the race starts the UI switches again to include a timer that shows how much time you have to reach the next checkpoint. The cars gas will also drain making the car unusable eventually. Particle effects were also used after each checkpoint and on the cars exhuast.</p>
+                    <video class="img-fluid" autoplay loop muted>
+                        <source src="img/RRRacing.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-sectiontwo" id="Finishing the Race">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Finishing the Race</h2>
+                    <p class="lead mb-5">After reaching the final checkpoint the player will be prompted how to proceed. They can either continue driving around the track for a bit or exit the car and head to the garage which now has a clearly lit objective spot to interact with.</p>
+                    <video class="img-fluid" autoplay loop muted>
+                        <source src="img/RREndGame.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer text-center" id="contact">
+        <div class="container">
+            <!--<ul class="list-inline mb-5">
+              <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/jaan.sangha.1">
+                  <i class="icon-social-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/jaan-sangha-055254180">
+                  <i class="icon-social-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white" href="#">
+                  <i class="icon-social-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white" href="https://www.instagram.com/jaan_sangha">
+                  <i class="icon-social-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white" href="mailto:jaansangha10@gmail.com">
+                  <i class="icon-social-google"></i>
+                </a>
+              </li>
+            </ul>-->
+            <p class="text-muted small mb-0">Copyright &copy; Jaan Sangha 2019</p>
+            <p class="text-muted small mb-0">This website is currently under construction</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
+</html>
