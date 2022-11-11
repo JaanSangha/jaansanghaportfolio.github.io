@@ -37,122 +37,223 @@
 
 <body style="background-color:#abdbe3" id="page-top">
 
-  
-  <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Navigation Menu</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="index.html">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#Monster Battles">Monster Battles</a>
-      </li>
-      <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#Melee Combat">Melee Combat</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+        <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a class="js-scroll-trigger" href="#page-top">Navigation Menu</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="index.html">Home</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Monster Battles">Monster Battles</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Melee Combat">Melee Combat</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Scene Building">Scene Building</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Quest System">Quest System</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Cool Mounts">Cool Mounts</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Weather and Calendar System">Weather and Calendar System</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Dungeons">Dungeons</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#Saving and Loading">Saving and Loading</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
 
-  <section class="title-section" id="Title">
-    <div class="container text-center"> 
-        <div class="col-lg-10 mx-auto">
-            <h1>Omnster Adventure</h1>
-            <video class="img-fluid" autoplay loop muted playsinline>
-                <source src="img/OADemoVid.mp4" type="video/mp4">
-            </video>
+    <section class="title-section" id="Title">
+        <div class="container text-center">
+            <div class="col-lg-10 mx-auto">
+                <h1>Omnster Adventure</h1>
+                <video class="img-fluid" autoplay loop muted playsinline>
+                    <source src="img/OADemoVid.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
-    </div>
-  </section> 
+    </section>
 
 
-  <section class="content-sectiontwo" id="Monster Battles">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-            <h2>Monster Battles</h2>
-          <p class="lead mb-5">The monster battles are a turned based system with all the popular and crucial elements. Things like type effectiveness, status conditions, critical hits, and move priority are all implemented.Each move has been made with object oriented programming and can be assigned properties like power, type, VFX, and more.</p>
-          <video class="img-fluid" autoplay loop muted playsinline>
-              <source src="img/OADemoBattle.mp4" type="video/mp4">
-          </video>
+    <section class="content-sectiontwo" id="Monster Battles">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Monster Battles</h2>
+                    <p class="lead mb-5">The monster battles are a turned based system with all the popular and crucial elements. Things like type effectiveness, status conditions, critical hits, and move priority are all implemented.Each move has been made with object oriented programming and can be assigned properties like power, type, VFX, and more.</p>
+                    <video class="img-fluid" autoplay loop muted playsinline>
+                        <source src="img/OABattleDemo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section> 
-  
-  <section class="content-sectiontwo" id="Melee Combat">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-              <h2>Melee Combat</h2>
-            <p class="lead mb-5"> The combat system is still under development but here is an example of some of the animations in the current build. The plan is to have smart enemy AI that will chase down the player and use multiple attack combos which the player can block or perry for a counter attack.</p>
-            <video class="img-fluid" autoplay loop muted playsinline>
-                <source src="img/OADemoCombat.mp4" type="video/mp4">
-            </video>
-          </div>
+    </section>
+
+    <section class="content-sectiontwo" id="Melee Combat">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Melee Combat</h2>
+                    <p class="lead mb-5"> The combat system is still under development but here is an example of an enemy encounter. The AI will notice the player when in eyesight and try to attack them. They will go for an attack and then back up and strafe to either side before going in for another one. The player can also block the attack which stuns the enemy for a moment to give a chance for extra attacks.</p>
+                    <video class="img-fluid" autoplay loop muted playsinline>
+                        <source src="img/OACombatDemo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
         </div>
-      </div>
-    </section> 
+    </section>
 
-  
-  <!-- Footer -->
-  <footer class="footer text-center" id="contact">
-    <div class="container">
-      <!--<ul class="list-inline mb-5">-->
-        <!--<li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/jaan.sangha.1">
-            <i class="icon-social-facebook"></i>
-          </a>
-        </li>-->
-        <!--<li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/jaan-sangha-055254180">
-            <i class="icon-social-linkedin"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
-            <i class="icon-social-github"></i>
-          </a>
-        </li>-->
-        <!--<li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="https://www.instagram.com/jaan_sangha">
-            <i class="icon-social-instagram"></i>
-          </a>
-        </li>-->
-        <!--<li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="mailto:jaansangha10@gmail.com">
-            <i class="icon-social-google"></i>
-          </a>
-        </li>
-      </ul>-->
-      <p class="text-muted small mb-0">Copyright &copy; Jaan Sangha 2019</p>
-      <p class="text-muted small mb-0">This website is currently under construction</p>
-    </div>
-  </footer>
+    <section class="content-sectiontwo" id="Scene Building">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Scene Building</h2>
+                    <p class="lead mb-5"> The game uses additive scene loading so it can be explored without any pauses or interuptions. Only the scenes that are directly next to the player will be loaded and any scenes that are far away will be unloaded when the player is not close to them. Using this method created a really cool open-world game that I have been customizing to be visually appealing.  </p>
+                    <video class="img-fluid" autoplay loop muted playsinline>
+                        <source src="img/OASceneDemo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
+    <section class="content-sectiontwo" id="Quest System">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Quest System</h2>
+                    <p class="lead mb-5"> There is a quest system implemented as well, allowing the player to be rewarded for completing specific tasks. This is also done with object oriented programming which makes it very simple to customize the rewards and requirements for the quests.</p>
+                    <video class="img-fluid" autoplay loop muted playsinline>
+                        <source src="img/OAQuestDemo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <section class="content-sectiontwo" id="Cool Mounts">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Cool Mounts</h2>
+                    <p class="lead mb-5"> A really cool feature I implemented is the ability to ride on your monsters. The player will be able to ride on their back and fly or walk through the map at a faster speed then on foot. The mounts also have reasonable limitations so the player can't use them indoors or in inappropriate places.</p>
+                    <video class="img-fluid" autoplay loop muted playsinline>
+                        <source src="img/OAMountDemo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <section class="content-sectiontwo" id="Weather and Calendar System">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Weather and Calendar System</h2>
+                    <p class="lead mb-5"> The game has a functional day/night cycle with weather effects that change according to the season. When changing the game from morning to night or vice versa the sky will be changed appropriately and the scene gradually becomes more light/dark.</p>
+                    <video class="img-fluid" autoplay loop muted playsinline>
+                        <source src="img/OAWeatherCalendarDemo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
+    <section class="content-sectiontwo" id="Dungeons">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Dungeons</h2>
+                    <p class="lead mb-5"> There are dungeons that the player can discover and clear to get enticing rewards. Within the dungeons there are enemies and different routes to go so you will have to navigate to the main boss room to get the reward. I am planning to add a big diversity of puzzles to the dungeons the player will have to solve with brains and skills in order to progress through them.</p>
+                    <video class="img-fluid" autoplay loop muted playsinline>
+                        <source src="img/OADungeonDemo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-sectiontwo" id="Saving and Loading">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Saving and Loading</h2>
+                    <p class="lead mb-5"> I implemented a saving and loaded system as well so the player can progress through the game while keeping all their items, monsters, achievements. This is done by adding a savable component to all the scripts I want to keep track of and then storing the values when the game is saved and restoring them when loaded.</p>
+                    <video class="img-fluid" autoplay loop muted playsinline>
+                        <source src="img/OASavingDemo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center" id="contact">
+        <div class="container">
+            <!--<ul class="list-inline mb-5">-->
+            <!--<li class="list-inline-item">
+              <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/jaan.sangha.1">
+                <i class="icon-social-facebook"></i>
+              </a>
+            </li>-->
+            <!--<li class="list-inline-item">
+              <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/jaan-sangha-055254180">
+                <i class="icon-social-linkedin"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white" href="#">
+                <i class="icon-social-github"></i>
+              </a>
+            </li>-->
+            <!--<li class="list-inline-item">
+              <a class="social-link rounded-circle text-white" href="https://www.instagram.com/jaan_sangha">
+                <i class="icon-social-instagram"></i>
+              </a>
+            </li>-->
+            <!--<li class="list-inline-item">
+                <a class="social-link rounded-circle text-white" href="mailto:jaansangha10@gmail.com">
+                  <i class="icon-social-google"></i>
+                </a>
+              </li>
+            </ul>-->
+            <p class="text-muted small mb-0">Copyright &copy; Jaan Sangha 2019</p>
+            <p class="text-muted small mb-0">This website is currently under construction</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
 
 </body>
 
